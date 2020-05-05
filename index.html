@@ -2,56 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mock Website</title>
-
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mock Website</title>
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
 </head>
 
 <body>
-    <header>
-        <div>
-        <ul class="nav justify-content-end" id="searchNav">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-                <div class="checkbox">
-                    <label>
-                      <input type="checkbox" data-toggle="toggle">
-                      Safe mode
-                    </label>
-                  </div>
-            </li>
-            <li class="nav-item">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2 form-control-sm mt-1" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-sm mt-sm-1" type="submit">Search</button>
-                  </form>
-            </li>
-          </ul>
-        </div>
-    </header>
-
-    <div class="jumbotron jumbotron-fluid">
-           <div class="container">
-             <div class="bg-white">
-             <h1 class="text-center">Hola</h1>
-            </div>
-           </div>
-      </div>
-
-    <div container>
-        <strong>SWAGGY</strong>
+  <header class="sticky-top">
+    <div>
+      <ul class="nav justify-content-end" id="searchNav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" data-toggle="toggle">
+              Safe mode
+            </label>
+          </div>
+        </li>
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 form-control-sm mt-1" type="search" placeholder="Search"
+              aria-label="Search">
+            <button class="btn btn-sm mt-sm-1" type="submit">Search</button>
+          </form>
+        </li>
+      </ul>
     </div>
+  </header>
 
-    <footer>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="bg-white">
+        <h1 class="text-center">Hola</h1>
+      </div>
+    </div>
+  </div>
 
-    </footer>
+  <ul class="nav justify-content-center" id="mainNav">
+    <li class="nav-item">
+      <a class="nav-link active" id="navLink" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="navLink" href="#">Donate</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="navLink" href="#">Volunteer</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="navLink" href="#">Programs</a>
+    </li>
+  </ul>
+
+
+  <div container>
+    <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+    <p> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+    <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    </p>
+    <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+    <p> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+    <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    </p>
+  </div>
+
+  <footer>
+    test
+  </footer>
 </body>
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

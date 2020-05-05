@@ -1,6 +1,4 @@
-body {
-    background-color:#EEE2DC;
-}
+
 #searchNav {
 background-color: #123C69;
 padding: 0.2rem;
@@ -11,6 +9,7 @@ padding: 0.2rem;
     background-image: url(/img/colourstreet.jpg);
     padding: 10%;
     opacity: 0.8;
+    margin-bottom: 0;
 }
 .jumbotron:hover {
     opacity: 1;
@@ -18,6 +17,21 @@ padding: 0.2rem;
 #callToAction {
     height: 20%;
     width: 20%;
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
+}
+#mainNav {
+    background-color: #AC3B61;
+}
+#navLink {
+    color: #EEE2DC;
+}
+#navLink:hover {
+    color: rgb(255, 0, 170);
+}
+footer {
+    background-color: #BAB2B5;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #EEE2DC !important;
 }
