@@ -1,0 +1,23 @@
+body {
+    background-color:#EEE2DC;
+}
+#searchNav {
+background-color: #123C69;
+padding: 0.2rem;
+}
+.jumbotron {
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/colourstreet.jpg);
+    padding: 10%;
+    opacity: 0.8;
+}
+.jumbotron:hover {
+    opacity: 1;
+}
+#callToAction {
+    height: 20%;
+    width: 20%;
+    opacity: 0.5;
+    color: white;
+}

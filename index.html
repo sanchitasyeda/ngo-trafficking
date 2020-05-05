@@ -7,15 +7,48 @@
     <title>Mock Website</title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-
+        <div>
+        <ul class="nav justify-content-end" id="searchNav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <div class="checkbox">
+                    <label>
+                      <input type="checkbox" data-toggle="toggle">
+                      Safe mode
+                    </label>
+                  </div>
+            </li>
+            <li class="nav-item">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 form-control-sm mt-1" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-sm mt-sm-1" type="submit">Search</button>
+                  </form>
+            </li>
+          </ul>
+        </div>
     </header>
+
+    <div class="jumbotron jumbotron-fluid">
+           <div class="container">
+             <div class="bg-white">
+             <h1 class="text-center">Hola</h1>
+            </div>
+           </div>
+      </div>
+
     <div container>
-<strong>SWAGGY</strong>
+        <strong>SWAGGY</strong>
     </div>
+
     <footer>
 
     </footer>
@@ -23,5 +56,6 @@
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
 </html>
